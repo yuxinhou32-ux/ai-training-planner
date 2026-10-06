@@ -1,0 +1,90 @@
+@import 'tailwindcss';
+
+/* 浅色主题基座（IDE Theme: light） */
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply text-slate-800 antialiased;
+  font-family:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  /* 很淡的冷色渐变 + 右上角一抹 indigo 辉光，让白卡片浮起来（「通用模板」的底子） */
+  background:
+    radial-gradient(70rem 24rem at 88% -12rem, rgb(99 102 241 / 0.07), transparent 62%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  background-attachment: fixed;
+}
+
+/* ---------------------------------------------------------------------------
+ * 全局元素基座 —— 只动「视觉」，不改任何结构/文案/逻辑。
+ * 🔴 这些规则是 **unlayered**（不在任何 @layer 里）：Tailwind 4 里非分层样式
+ *    优先级高于所有分层样式，所以能对行内的工具类生效（同属性才覆盖，新增属性直接生效）。
+ * ------------------------------------------------------------------------- */
+
+/* 页头 h1：统一成「通用模板」的标题字重与字距 */
+main h1 {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: rgb(15 23 42);
+}
+
+/* 全站按钮：平滑过渡 + 禁用态光标（「锁定」一眼可辨） */
+button {
+  transition:
+    color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+a {
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+/* 主按钮（实心 indigo）：统一加一层极浅投影，显得「立得住」 */
+button.bg-indigo-600 {
+  box-shadow: 0 1px 2px rgb(79 70 229 / 0.35);
+}
+button.bg-indigo-600:disabled {
+  box-shadow: none;
+}
+
+/* 次要按钮（描边 indigo）：同样的浅投影 */
+button.border-indigo-300 {
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.05);
+}
+
+/* 表单控件：统一圆角、内阴影、focus 光环（行内已各有 border-*/focus: 类，
+ * 这里只保证「所有输入框长得一样」） */
+input:not([type='checkbox']):not([type='radio']),
+select,
+textarea {
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.04);
+}
+input:not([type='checkbox']):not([type='radio']):focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgb(129 140 248); /* indigo-400 */
+  box-shadow: 0 0 0 4px rgb(99 102 241 / 0.12);
+}
+
+/* 白底圆角卡片（全站出现最多的组合）：统一升到 16px 圆角 + 极浅投影。
+ * 注意选择器必须精确匹配这个类组合，避免误伤其它元素。 */
+.rounded-xl.border-slate-200.bg-white {
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.05);
+}

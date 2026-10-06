@@ -1,0 +1,24 @@
+{
+  "comment": "manual 层覆盖表（source='manual', confirmed=1）。依据 2026-09-29 N1 目录实测：目录 type 为粗粒度（肩不分束/腿不分前后链），以下标准名的 server 映射存在系统性偏差，由本表修正。用户可在 UI 修改，confirmed=1 后不再被覆盖。",
+  "items": [
+    { "name": "坐姿髋外展",   "muscles": [{ "code": "hip_abductors", "role": "primary", "weight": 1.0 }], "reason": "目录 type=腿 会拆成 quads/ham/glutes，实际是髋外展肌孤立动作" },
+    { "name": "坐姿髋内收",   "muscles": [{ "code": "adductors", "role": "primary", "weight": 1.0 }], "reason": "同上，内收肌孤立动作" },
+    { "name": "坐姿腿弯举",   "muscles": [{ "code": "hamstrings", "role": "primary", "weight": 1.0 }], "reason": "腘绳主导，非腿部三分拆" },
+    { "name": "坐姿腿屈伸",   "muscles": [{ "code": "quads", "role": "primary", "weight": 1.0 }], "reason": "股四头孤立动作" },
+    { "name": "保加利亚蹲",   "muscles": [{ "code": "quads", "role": "primary", "weight": 1.0 }, { "code": "glutes", "role": "secondary", "weight": 0.5 }], "reason": "单侧蹲，股四头主导" },
+    { "name": "硬拉",         "muscles": [{ "code": "hamstrings", "role": "primary", "weight": 1.0 }, { "code": "glutes", "role": "primary", "weight": 1.0 }, { "code": "back_upper", "role": "secondary", "weight": 0.5 }], "reason": "后链主导，非腿部三分拆" },
+    { "name": "腿举",         "muscles": [{ "code": "quads", "role": "primary", "weight": 1.0 }, { "code": "glutes", "role": "secondary", "weight": 0.5 }], "reason": "股四头主导" },
+    { "name": "器械倒蹬",     "muscles": [{ "code": "quads", "role": "primary", "weight": 1.0 }, { "code": "glutes", "role": "secondary", "weight": 0.5 }], "reason": "股四头主导" },
+    { "name": "引体向上（辅助）", "muscles": [{ "code": "back_lats", "role": "primary", "weight": 1.0 }, { "code": "back_upper", "role": "secondary", "weight": 0.5 }], "reason": "下拉/引体类背阔主导，非上下背均分" },
+    { "name": "窄距下拉",     "muscles": [{ "code": "back_lats", "role": "primary", "weight": 1.0 }, { "code": "back_upper", "role": "secondary", "weight": 0.5 }], "reason": "同上" },
+    { "name": "宽距下拉",     "muscles": [{ "code": "back_lats", "role": "primary", "weight": 1.0 }, { "code": "back_upper", "role": "secondary", "weight": 0.5 }], "reason": "同上" },
+    { "name": "哑铃推肩",     "muscles": [{ "code": "shoulder_front", "role": "primary", "weight": 1.0 }, { "code": "shoulder_side", "role": "secondary", "weight": 0.5 }, { "code": "triceps", "role": "secondary", "weight": 0.5 }], "reason": "推肩前束主导，非前后均分" },
+    { "name": "阿诺德推肩",   "muscles": [{ "code": "shoulder_front", "role": "primary", "weight": 1.0 }, { "code": "shoulder_side", "role": "secondary", "weight": 0.5 }, { "code": "triceps", "role": "secondary", "weight": 0.5 }], "reason": "同上" },
+    { "name": "侧平举",       "muscles": [{ "code": "shoulder_side", "role": "primary", "weight": 1.0 }], "reason": "中束孤立动作" },
+    { "name": "面拉",         "muscles": [{ "code": "shoulder_rear", "role": "primary", "weight": 1.0 }, { "code": "back_upper", "role": "secondary", "weight": 0.5 }], "reason": "后束主导，目录 type=肩 拆前/中会失真" },
+    { "name": "前平举",       "muscles": [{ "code": "shoulder_front", "role": "primary", "weight": 1.0 }], "reason": "前束孤立动作" },
+    { "name": "蝴蝶机反向飞鸟", "muscles": [{ "code": "shoulder_rear", "role": "primary", "weight": 1.0 }, { "code": "back_upper", "role": "secondary", "weight": 0.5 }], "reason": "后束主导（R-AG-02 精度前提）" },
+    { "name": "早安",         "muscles": [{ "code": "glutes", "role": "primary", "weight": 1.0 }, { "code": "hamstrings", "role": "primary", "weight": 1.0 }], "reason": "髋铰链后链动作" },
+    { "name": "锤式弯举",     "muscles": [{ "code": "biceps", "role": "primary", "weight": 1.0 }, { "code": "forearm", "role": "secondary", "weight": 0.5 }], "reason": "中立握练肱肌/前臂" }
+  ]
+}

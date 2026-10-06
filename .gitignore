@@ -1,0 +1,50 @@
+# 环境变量：含真实 API Key，严禁入库
+.env
+.env.local
+.env.*.local
+
+# 探针落盘的原始响应（可能含个人训练数据）
+data/probe/
+data/probe_write/
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+
+# 日志
+*.log
+npm-debug.log*
+
+# 运行时数据库（不入库）
+data/*.db
+data/*.bak
+data/*.db-wal
+data/*.db-shm
+data/backups/
+
+# 会话元数据与临时脚本（不入库）
+.workbuddy/
+scripts/.tmp-*
+
+# 记忆目录的本地备份（含个人开发过程记录，不入库）
+backup-memory-*/
+
+# 分析报告产物（个人训练统计，可由 npm run analyze 再生）
+data/report_latest.json
+
+# 临时截图
+tmp/
+
+# 根目录一次性临时脚本/落盘
+/tmp_*
+
+# 一次性探针脚本：开发期产物，对访客无参考价值，且其中多个硬编码了真实日期范围 → 不进公开仓库
+scripts/tmp_*.mjs
+
+# 旧版产品文档：已被 docs/PRD-v2.md 取代，两份 PRD 并存会让访客不知道该信哪份 → 不进公开仓库
+docs/PRD.md
+
+# 内部工程笔记：含真实训练量级的实测统计与开发过程记录 → 保留在本地，不进公开仓库
+docs/archive/ARCHITECTURE-v1.md
+docs/portrait-cycle-changes.md

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "KR-009",
+    "keywords": ["反向飞鸟", "后束飞鸟", "交叉后束", "面拉", "俯身侧平举", "俯身飞鸟"],
+    "exclude": [],
+    "muscles": [
+      { "code": "shoulder_rear", "role": "primary",   "weight": 1.0 },
+      { "code": "back_upper",    "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "pull",
+    "joints": [],
+    "note": "置于 KR-001 之前：后束类动作名常含『飞鸟』，先于胸类规则评估"
+  },
+  {
+    "id": "KR-001",
+    "keywords": ["卧推", "俯卧撑", "夹胸", "飞鸟", "蝴蝶机", "胸推", "推胸", "胸部推举"],
+    "exclude": ["后束", "反向"],
+    "muscles": [
+      { "code": "chest",          "role": "primary",   "weight": 1.0 },
+      { "code": "shoulder_front", "role": "secondary", "weight": 0.5 },
+      { "code": "triceps",        "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "push",
+    "joints": [{ "code": "shoulder", "level": 1 }],
+    "note": "exclude 防止『器械胸部推举』类被 KR-007 误判为肩、后束飞鸟误判为胸"
+  },
+  {
+    "id": "KR-002",
+    "keywords": ["硬拉", "罗马尼亚", "直腿硬拉", "早安"],
+    "exclude": [],
+    "muscles": [
+      { "code": "hamstrings", "role": "primary",   "weight": 1.0 },
+      { "code": "glutes",     "role": "primary",   "weight": 1.0 },
+      { "code": "back_upper", "role": "secondary", "weight": 0.5 },
+      { "code": "forearm",    "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "hinge",
+    "joints": [{ "code": "lumbar", "level": 3 }],
+    "note": "『早安』不带『式』也可命中（覆盖哈克机早安变体）"
+  },
+  {
+    "id": "KR-003",
+    "keywords": ["前平举"],
+    "exclude": [],
+    "muscles": [{ "code": "shoulder_front", "role": "primary", "weight": 1.0 }],
+    "pattern": "isolation",
+    "joints": [{ "code": "shoulder", "level": 2 }],
+    "note": ""
+  },
+  {
+    "id": "KR-004",
+    "keywords": ["划船", "下拉", "引体"],
+    "exclude": [],
+    "muscles": [
+      { "code": "back_lats",  "role": "primary",   "weight": 1.0 },
+      { "code": "back_upper", "role": "primary",   "weight": 1.0 },
+      { "code": "biceps",     "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "pull",
+    "joints": [{ "code": "lumbar", "level": 1 }],
+    "note": ""
+  },
+  {
+    "id": "KR-005",
+    "keywords": ["深蹲", "腿举", "腿屈伸", "哈克", "箱式深蹲", "倒蹬"],
+    "exclude": ["早安"],
+    "muscles": [
+      { "code": "quads",  "role": "primary",   "weight": 1.0 },
+      { "code": "glutes", "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "squat",
+    "joints": [{ "code": "knee", "level": 2 }, { "code": "lumbar", "level": 2 }],
+    "note": "exclude 防『哈克机早安』误归股四头"
+  },
+  {
+    "id": "KR-006",
+    "keywords": ["臀桥", "髋推", "髋外展", "后踢", "臀冲", "驴踢", "后蹬", "侧踢"],
+    "exclude": [],
+    "muscles": [{ "code": "glutes", "role": "primary", "weight": 1.0 }],
+    "pattern": "hinge",
+    "joints": [],
+    "note": "新增驴踢/后蹬/侧踢（28 变体实测增补）"
+  },
+  {
+    "id": "KR-007",
+    "keywords": ["推举", "肩上推", "阿诺德", "军事推举", "推肩"],
+    "exclude": ["胸"],
+    "muscles": [
+      { "code": "shoulder_front", "role": "primary",   "weight": 1.0 },
+      { "code": "shoulder_side",  "role": "secondary", "weight": 0.5 },
+      { "code": "triceps",        "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "push",
+    "joints": [{ "code": "shoulder", "level": 3 }, { "code": "lumbar", "level": 2 }],
+    "note": "exclude 防『器械胸部推举』误判为肩"
+  },
+  {
+    "id": "KR-008",
+    "keywords": ["侧平举"],
+    "exclude": ["俯身"],
+    "muscles": [{ "code": "shoulder_side", "role": "primary", "weight": 1.0 }],
+    "pattern": "isolation",
+    "joints": [{ "code": "shoulder", "level": 1 }],
+    "note": "exclude：俯身侧平举是后束动作，由 KR-009 处理"
+  },
+  {
+    "id": "KR-010",
+    "keywords": ["弯举"],
+    "exclude": ["腿"],
+    "muscles": [{ "code": "biceps", "role": "primary", "weight": 1.0 }],
+    "pattern": "isolation",
+    "joints": [],
+    "note": ""
+  },
+  {
+    "id": "KR-011",
+    "keywords": ["臂屈伸", "下压", "窄距卧推"],
+    "exclude": [],
+    "muscles": [{ "code": "triceps", "role": "primary", "weight": 1.0 }],
+    "pattern": "push",
+    "joints": [{ "code": "shoulder", "level": 1 }],
+    "note": ""
+  },
+  {
+    "id": "KR-012",
+    "keywords": ["提踵"],
+    "exclude": [],
+    "muscles": [{ "code": "calves", "role": "primary", "weight": 1.0 }],
+    "pattern": "isolation",
+    "joints": [],
+    "note": ""
+  },
+  {
+    "id": "KR-013",
+    "keywords": ["卷腹", "平板支撑", "抬腿", "俄罗斯转体", "死虫", "登山者", "腹部", "悬垂举腿"],
+    "exclude": [],
+    "muscles": [{ "code": "core", "role": "primary", "weight": 1.0 }],
+    "pattern": "core",
+    "joints": [],
+    "note": ""
+  },
+  {
+    "id": "KR-014",
+    "keywords": ["跑步", "单车", "椭圆", "跳绳", "游泳", "划船机", "波比", "HIIT", "Tabata", "开合跳", "有氧"],
+    "exclude": [],
+    "muscles": [{ "code": "cardio", "role": "primary", "weight": 1.0 }],
+    "pattern": "cardio",
+    "is_cardio": true,
+    "joints": [],
+    "note": "新增『有氧』（覆盖『有氧训练』）"
+  },
+  {
+    "id": "KR-015",
+    "keywords": ["拉伸", "放松", "筋膜", "泡沫轴"],
+    "exclude": [],
+    "muscles": [{ "code": "stretch", "role": "primary", "weight": 1.0 }],
+    "pattern": "stretch",
+    "is_stretch": true,
+    "joints": [],
+    "note": ""
+  },
+  {
+    "id": "KR-016",
+    "keywords": ["保加利亚"],
+    "exclude": [],
+    "muscles": [
+      { "code": "quads",  "role": "primary",   "weight": 1.0 },
+      { "code": "glutes", "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "lunge",
+    "joints": [{ "code": "knee", "level": 2 }],
+    "note": "新增（28 变体实测增补）：保加利亚分腿蹲"
+  },
+  {
+    "id": "KR-017",
+    "keywords": ["农夫"],
+    "exclude": [],
+    "muscles": [
+      { "code": "forearm", "role": "primary",   "weight": 1.0 },
+      { "code": "core",    "role": "secondary", "weight": 0.5 }
+    ],
+    "pattern": "carry",
+    "joints": [],
+    "note": "新增（28 变体实测增补）：农夫行走"
+  }
+]

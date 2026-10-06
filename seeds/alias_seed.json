@@ -1,0 +1,30 @@
+{
+  "comment": "变体动作名 → 目录标准名 alias（2026-09-29 N1 实测：48 个用户动作中 28 个非精确名）。alias 使动作趋势（Q-D）按 catalog_id 聚合时不丢数据；肌群结论跟随标准名的 movement_muscle_map。source='auto'（由规则/实测生成），用户 UI 可改（manual）。",
+  "items": [
+    { "alias": "站姿旋转划船",       "catalog_name": "坐姿划船" },
+    { "alias": "暂停卧推",           "catalog_name": "杠铃卧推" },
+    { "alias": "哈克机反向深蹲",     "catalog_name": "哈克机深蹲" },
+    { "alias": "弹力带辅助引体向上", "catalog_name": "引体向上（辅助）" },
+    { "alias": "把手式蝴蝶机飞鸟",   "catalog_name": "器械飞鸟" },
+    { "alias": "对握高位下拉",       "catalog_name": "窄距下拉" },
+    { "alias": "哑铃保加利亚蹲",     "catalog_name": "保加利亚蹲" },
+    { "alias": "抬腿杠铃卧推",       "catalog_name": "杠铃卧推" },
+    { "alias": "宽距高位下拉",       "catalog_name": "宽距下拉" },
+    { "alias": "站姿驴踢",           "catalog_name": "后踢" },
+    { "alias": "俯卧哑铃划船（锤式）", "catalog_name": "哑铃划船" },
+    { "alias": "杠铃罗马尼亚硬拉",   "catalog_name": "罗马尼亚硬拉" },
+    { "alias": "绳索侧踢",           "catalog_name": "后踢" },
+    { "alias": "站姿绳索高位下拉",   "catalog_name": "窄距下拉" },
+    { "alias": "悍马机深蹲",         "catalog_name": "哈克机深蹲" },
+    { "alias": "绳索交叉后束飞鸟",   "catalog_name": "蝴蝶机反向飞鸟" },
+    { "alias": "哈克机早安",         "catalog_name": "早安" },
+    { "alias": "绳索十字夹胸",       "catalog_name": "绳索夹胸" },
+    { "alias": "器械胸部推举",       "catalog_name": "器械推胸" },
+    { "alias": "器械推胸（版本2）",  "catalog_name": "器械推胸" },
+    { "alias": "颈后下拉",           "catalog_name": "背后下拉" },
+    { "alias": "悬挂抬腿",           "catalog_name": "负重悬挂抬腿" },
+    { "alias": "器械坐姿反向飞鸟",   "catalog_name": "蝴蝶机反向飞鸟" },
+    { "alias": "箱式深蹲",           "catalog_name": "深蹲" }
+  ],
+  "no_alias_note": "以下 4 个变体不挂 alias（无语义贴近的标准名），由关键词规则给出肌群结论：哑铃农夫行走（KR-017）、有氧训练（KR-014）、器械后蹬（KR-006）、悬垂拉伸（KR-015）"
+}

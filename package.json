@@ -1,0 +1,38 @@
+{
+  "name": "ai-training-planner",
+  "version": "0.1.0",
+  "description": "Self-hosted AI training planner — programs your week (exercises and weights), then reviews it and feeds the conclusions back into the next round.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node scripts/tsc.mjs -p tsconfig.build.json",
+    "typecheck": "node scripts/tsc.mjs -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/tests/*.test.js\"",
+    "sync": "node dist/sync.js",
+    "reconcile": "node dist/reconcile.js",
+    "map": "node dist/map.js",
+    "analyze": "node dist/analyze.js",
+    "server": "node dist/server/index.js",
+    "probe:llm": "node scripts/probe_llm.mjs",
+    "dev": "vite",
+    "build:web": "vite build"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.104.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.2",
+    "vite": "^8.3.1"
+  }
+}

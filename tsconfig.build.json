@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": ["sync.ts", "reconcile.ts", "map.ts", "analyze.ts", "server/**/*.ts", "tests/**/*.ts"]
+}

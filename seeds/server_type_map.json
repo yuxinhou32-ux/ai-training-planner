@@ -1,0 +1,18 @@
+[
+  { "server_type": "胸",   "muscle_code": "chest",           "role": "primary",   "weight": 1.0, "pattern_hint": "push",       "note": "" },
+  { "server_type": "背",   "muscle_code": "back_upper",      "role": "primary",   "weight": 0.5, "pattern_hint": "pull",       "note": "服务端不分上背/背阔，各记 0.5" },
+  { "server_type": "背",   "muscle_code": "back_lats",       "role": "primary",   "weight": 0.5, "pattern_hint": "pull",       "note": "" },
+  { "server_type": "腿",   "muscle_code": "quads",           "role": "primary",   "weight": 0.4, "pattern_hint": "squat",      "note": "服务端不分前链后链，按经验比例拆分" },
+  { "server_type": "腿",   "muscle_code": "hamstrings",      "role": "primary",   "weight": 0.3, "pattern_hint": "squat",      "note": "" },
+  { "server_type": "腿",   "muscle_code": "glutes",          "role": "primary",   "weight": 0.3, "pattern_hint": "squat",      "note": "" },
+  { "server_type": "肩",   "muscle_code": "shoulder_front",  "role": "primary",   "weight": 0.5, "pattern_hint": "push",       "note": "服务端不分前/中/后束；细分判定靠 manual/规则层" },
+  { "server_type": "肩",   "muscle_code": "shoulder_side",   "role": "primary",   "weight": 0.5, "pattern_hint": "push",       "note": "" },
+  { "server_type": "二头", "muscle_code": "biceps",          "role": "primary",   "weight": 1.0, "pattern_hint": "isolation",  "note": "" },
+  { "server_type": "三头", "muscle_code": "triceps",         "role": "primary",   "weight": 1.0, "pattern_hint": "push",       "note": "" },
+  { "server_type": "小腿", "muscle_code": "calves",          "role": "primary",   "weight": 1.0, "pattern_hint": "isolation",  "note": "目录新增类型（N1 实测）" },
+  { "server_type": "前臂", "muscle_code": "forearm",         "role": "primary",   "weight": 1.0, "pattern_hint": "isolation",  "note": "目录新增类型（N1 实测）" },
+  { "server_type": "臀部", "muscle_code": "glutes",          "role": "primary",   "weight": 1.0, "pattern_hint": "hinge",      "note": "" },
+  { "server_type": "腹部", "muscle_code": "core",            "role": "primary",   "weight": 1.0, "pattern_hint": "core",       "note": "" },
+  { "server_type": "有氧", "muscle_code": "cardio",          "role": "primary",   "weight": 1.0, "pattern_hint": "cardio",     "note": "is_cardio=1，不计入肌群训练量" },
+  { "server_type": "拉伸", "muscle_code": "stretch",         "role": "primary",   "weight": 1.0, "pattern_hint": "stretch",    "note": "is_stretch=1，不计入肌群训练量" }
+]

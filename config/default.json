@@ -1,0 +1,28 @@
+{
+  "analysis": {
+    "window": { "trend_weeks": 26, "recent_weeks": 4, "segment_weeks": 4 },
+    "movement_trend": {
+      "min_weeks_with_data": 3,
+      "progress_weight_pct": 2.5,
+      "progress_reps_delta": 1,
+      "plateau_weight_pct": 2.5,
+      "plateau_min_weeks": 4,
+      "regress_weight_drop_pct": 5.0,
+      "slope_lookback_weeks": 6
+    },
+    "muscle_trend": {
+      "rise_pct": 20, "drop_pct": -20,
+      "insufficient_large_sets_per_week": 8,
+      "insufficient_small_sets_per_week": 4,
+      "excess_large_sets_per_week": 22,
+      "excess_small_sets_per_week": 14
+    },
+    "structure_trend": {
+      "push_pull_target": [0.8, 1.25],
+      "upper_lower_target": [0.7, 1.4],
+      "large_muscle_min_freq": 1.5,
+      "movement_repeat_rate_high": 0.6,
+      "same_pattern_per_day_max": 4
+    }
+  }
+}

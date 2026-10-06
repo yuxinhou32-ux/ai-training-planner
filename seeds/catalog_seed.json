@@ -1,0 +1,1567 @@
+{
+  "empty": {
+    "status": 200,
+    "body": {
+      "res": {
+        "schema": "movement_catalog_v1",
+        "version": 1,
+        "movements": [
+          {
+            "name": "杠铃卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜杠铃卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "下斜杠铃卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜哑铃卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "下斜哑铃卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械推胸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "悍马机推胸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯机卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "下斜史密斯机卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜史密斯机卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯 V-bar 卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃飞鸟",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械飞鸟",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索夹胸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "仰卧屈臂上拉",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "双杠臂屈伸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "俯卧撑",
+            "type": "胸",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "双杠臂屈伸（辅助）",
+            "type": "胸",
+            "exetype": "help",
+            "aliases": []
+          },
+          {
+            "name": "平板绳索夹胸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜绳索夹胸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "下斜绳索夹胸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "下斜俯卧撑",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "仰卧旋转屈臂上拉",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜哑铃飞鸟（锤式）",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜哑铃飞鸟",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "反手上斜哑铃卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃卧推（锤式）",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "俯卧撑（支撑球）",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单手俯卧撑",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃片夹胸",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "悍马机卧推",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "鼓掌俯卧撑",
+            "type": "胸",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "宽距下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "窄距下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "反手杠铃划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索直臂下压",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械划船（版本2）",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "悍马机下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "拉杆坐姿划船(宽握)",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "拉杆坐姿划船(窄握)",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "站姿哑铃划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜杠铃划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜哑铃划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "T杆划船（宽）",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "T杆划船（窄）",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "引体向上",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "反手引体向上",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "引体向上（辅助）",
+            "type": "背",
+            "exetype": "help",
+            "aliases": []
+          },
+          {
+            "name": "窄距引体向上（辅助）",
+            "type": "背",
+            "exetype": "help",
+            "aliases": []
+          },
+          {
+            "name": "背后下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "V-bar下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索坐姿划船（单手）",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "铁杆直臂下压",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "宽握反手下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯辅助引体",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯反手划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "山羊挺身",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹跳引体",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单手下拉",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿单手划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃划船（手扶）",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索站姿旋转划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "仰卧反手哑铃划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "悍马机正手划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "V-bar划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "卧姿T-bar划船",
+            "type": "背",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "深蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "前蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "相扑位硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "高翻",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "罗马尼亚硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哈克机深蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杰弗森深蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯机深蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯机坐蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯机直腿硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "六角杆硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "硬拉器硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃直腿硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃直腿硬拉",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "腿弯举",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿腿弯举",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单边腿弯举（器械）",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿腿屈伸",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "腿举",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械倒蹬",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "保加利亚蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃箭步蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃箭步蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃箭步蹲（反向）",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃相扑蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "深蹲跳",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "自重深蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单脚手枪深蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械深蹲",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "自重腿弯举",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿髋外展",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿髋内收",
+            "type": "腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃推肩",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "阿诺德推肩",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "侧平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "俯身侧平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械侧平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "前平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "俯身飞鸟",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃前平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃直立划船",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃片旋转",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃片前平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "站姿杠铃推举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯机推举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿杠铃推举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械坐姿推举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "悍马机坐姿推举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "蝴蝶机反向飞鸟",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "俯身绳索侧平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "俯身绳索侧平举（坐姿）",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索侧平举",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索侧平举（单边）",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "平板哑铃提拉",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "面拉",
+            "type": "肩",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃轮换弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿哑铃弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "牧师凳弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "牧师凳弯举(反向)",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "牧师凳锤式弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "牧师凳佐特曼弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "正手杠铃弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "锤式弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "直杆正手绳索弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "直杆绳索弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "集中弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜哑铃弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜锤式弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "牧师器弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "卧姿弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃集中弯举",
+            "type": "二头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃过头臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿杠铃过头臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "仰卧杠铃臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "跪姿绳索臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索过头臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索过头臂屈伸（跪姿）",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械三头下压",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械臂屈伸（版本2）",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "碎颅者",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "V-Bar 绳索下压",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "直杆绳索下压",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索臂屈伸（单）",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "平板哑铃臂屈伸（单）",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "窄距卧推",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "反手三头下压",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "窄距俯卧撑",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "平板臂屈伸",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "平板臂屈伸（屈腿）",
+            "type": "三头",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿杠铃提踵",
+            "type": "小腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "站姿哑铃提踵",
+            "type": "小腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿器械提踵",
+            "type": "小腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "坐姿器械提踵(版本2)",
+            "type": "小腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "站姿器械提踵",
+            "type": "小腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "腿举机提踵",
+            "type": "小腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯机提踵",
+            "type": "小腿",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "正手杠铃手腕弯举",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "正手杠铃弯举",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "EZ正手杠铃弯举",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "正手杠铃手腕弯举（平板）",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "正手杠铃手腕弯举（平板v2）",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "背身杠铃手腕弯举",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索手腕弯举",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单手哑铃手腕弯举（反手）",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单手哑铃手腕弯举（正手）",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "垂式哑铃手腕弯举",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃片正手弯举",
+            "type": "前臂",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "早安",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃臀冲",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯臀冲",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "器械后踢",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "后踢",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯后踢",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "绳索直腿硬拉",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "杠铃臀桥",
+            "type": "臀部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "3/4 仰卧起坐",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "负重仰卧起坐",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "仰卧抬腿",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "抬腿",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "平板抬腿",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "转体抬腿",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "器械卷腹",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "空中单车",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "空中单车(高难度版)",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "绳索跪姿卷腹",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "平躺跪姿转体",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "保护式卷腹",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "平躺抬腿",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "站姿绳索转体",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "站姿绳索转体(版本2)",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "腹肌轮收",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "负重悬挂抬腿",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "上斜卷腹转体",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "绳索卷腹",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "史密斯上踢",
+            "type": "腹部",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "卷腹",
+            "type": "腹部",
+            "exetype": "times",
+            "aliases": []
+          },
+          {
+            "name": "平板支撑",
+            "type": "腹部",
+            "exetype": "record",
+            "aliases": []
+          },
+          {
+            "name": "平躺哑铃卧推",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "跪姿俯卧撑",
+            "type": "自重",
+            "exetype": "plus_weight",
+            "aliases": []
+          },
+          {
+            "name": "弹力绳-前推",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力绳-俯身划船",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力绳-坐姿划船",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力绳-直臂下拉",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力绳-高位下拉",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃酒杯深蹲",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃前蹲",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "俯卧哑铃腿弯举",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带-站姿单腿内收",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带-站姿单腿外展",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带-腿外展",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哥萨克深蹲",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单腿跪姿股四头肌拉伸",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "哑铃臀冲",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带臀冲",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带蚌式开合",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "侧卧抬腿",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "侧卧髋内收",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "站姿哑铃推举",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带-俯身后束飞鸟",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带-面拉",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "肩内外旋动态拉伸",
+            "type": "自重",
+            "exetype": "plus_weight",
+            "aliases": []
+          },
+          {
+            "name": "三角肌后束拉伸",
+            "type": "自重",
+            "exetype": "stretch",
+            "aliases": []
+          },
+          {
+            "name": "弹力带肩部热身拉伸",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "弹力带-过头臂屈伸",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "单手扶墙拉伸",
+            "type": "自重",
+            "exetype": "stretch",
+            "aliases": []
+          },
+          {
+            "name": "最伟大拉伸",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "髋关节环绕拉伸",
+            "type": "自重",
+            "exetype": "",
+            "aliases": []
+          },
+          {
+            "name": "水瓶俄罗斯转体",
+            "type": "自重",
+            "exetype": "plus_weight",
+            "aliases": []
+          },
+          {
+            "name": "跑步",
+            "type": "有氧",
+            "exetype": "cardio",
+            "aliases": []
+          },
+          {
+            "name": "游泳",
+            "type": "有氧",
+            "exetype": "cardio",
+            "aliases": []
+          },
+          {
+            "name": "动感单车",
+            "type": "有氧",
+            "exetype": "cardio",
+            "aliases": []
+          },
+          {
+            "name": "室外自行车",
+            "type": "有氧",
+            "exetype": "cardio",
+            "aliases": []
+          },
+          {
+            "name": "平板支撑",
+            "type": "计时动作",
+            "exetype": "record",
+            "aliases": []
+          },
+          {
+            "name": "跑步",
+            "type": "计时动作",
+            "exetype": "record",
+            "aliases": []
+          },
+          {
+            "name": "游泳",
+            "type": "计时动作",
+            "exetype": "record",
+            "aliases": []
+          },
+          {
+            "name": "动感单车",
+            "type": "计时动作",
+            "exetype": "record",
+            "aliases": []
+          },
+          {
+            "name": "跳绳",
+            "type": "计时动作",
+            "exetype": "record",
+            "aliases": []
+          },
+          {
+            "name": "瑜伽",
+            "type": "计时动作",
+            "exetype": "record",
+            "aliases": []
+          },
+          {
+            "name": "波比跳",
+            "type": "全身",
+            "exetype": "times",
+            "aliases": []
+          }
+        ]
+      }
+    }
+  }
+}
